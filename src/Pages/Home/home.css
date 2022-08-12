@@ -1,0 +1,15 @@
+.Home{
+    /* background-color: rgb(255, 0, 0); */
+    background-color: rgb(94, 66, 166);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #FFF;
+    border: none;
+}
+
+.daram__home__sectionTitle{
+    padding-top: 5%;
+
+    font-size: 40px;
+}

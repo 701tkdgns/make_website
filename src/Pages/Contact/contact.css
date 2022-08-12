@@ -1,0 +1,64 @@
+.Contact {
+    background-color: rgb(94, 66, 166);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #FFF;
+    border: none;
+}
+
+.daram__contact__sectionTitle {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 40px;
+}
+
+.daram__contact__group{
+    display: flex;
+}
+
+.daram__contact__groupA {
+    width: 100%;
+    flex: .4;
+    margin: 2%;
+    overflow: hidden;
+
+}
+
+.daram__contact__group_middle {
+    content: "";
+    width: 2px;
+    height: 800px;
+    background-color: #d3d3d3;
+}
+
+.daram__contact__groupB {
+    width: 100% ;
+    flex: 1;
+    margin: 2%;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1440px) {
+    .daram__contact__groupB iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .daram__contact__group{
+        flex-direction: column;
+    }
+    .daram__contact__group_middle{
+        display: none;
+    }
+
+    .daram__contact__groupB iframe{
+        height: 100%;
+    }
+
+    .daram__contact__groupA,
+    .daram__contact__groupB{
+        flex: 1;
+    }
+}

@@ -1,0 +1,40 @@
+.info{
+    margin: 20px auto;
+}
+
+.info i{
+    float: left;
+    margin-right: 10px;
+    font-size: 26px;
+    width: 44px;
+    color: #444;
+    height: 44px;
+    background-color: #eef7ff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+
+.info h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px;
+    line-height: 1.2;
+}
+
+.info p{
+    margin-left: 60px;
+    line-height: 1.2;
+    font-size: 15px;
+    color: #fff;
+}
+
+.info i:hover{
+    background-color: rgb(94, 66, 166);
+    color: #FFF;
+    border: none;
+}

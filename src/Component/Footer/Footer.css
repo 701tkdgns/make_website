@@ -1,0 +1,12 @@
+
+.copyright{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}

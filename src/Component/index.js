@@ -1,0 +1,5 @@
+export {default as Navbar} from './Navbar/Navbar.jsx'
+export {default as Info} from './Info/Info.jsx'
+export {default as Footer} from './Footer/Footer.jsx'
+export {default as Mail} from './Mail/Mail.jsx'
+export {default as Map} from './Map/Map.jsx'
